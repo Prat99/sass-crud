@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./home.scss";
+import Button from '../../ui/button/button';
 import EmpTable from "./empTable";
 
 class Home extends Component {
@@ -114,6 +115,7 @@ class Home extends Component {
               >
                 Save
               </button>
+              <Button></Button>
             </div>
           </form>
           <hr />
